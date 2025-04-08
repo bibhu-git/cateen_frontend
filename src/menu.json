@@ -1,0 +1,24 @@
+{
+  "food": [
+    {
+      "type": "Breakfast:",
+      "description": "Start your day with a variety of fresh and nutritious options, including tasty idli (ଇଡ୍ଲି), crispy bora, savory chop (ଆଳୁ), and fluffy puri (ପୁରୀ), all beautifully prepared and designed to give you the energy you need to tackle the day ahead.",
+      "image": "breakfast"
+    },
+    {
+      "type": "Lunch:",
+      "description": "Enjoy a satisfying meal with delicious options like steamed rice, flavorful lentils (ଡାଲି), crispy fried vegetables (ଭଜା), tender chicken, savory mashed potatoes (ଆଳୁ ଭର୍ତା), fresh fish, crispy mixture, and a perfectly cooked egg to keep you energized.",
+      "image": "lunch"
+    },
+    {
+      "type": "Dinner:",
+      "description": "Enjoy a fulfilling meal with options like soft ruti, paired with hearty soybean curry, flavorful alu kasa, or delicious chakuli pitha. Complement your meal with steamed rice, comforting lentils (ବୁଟ ଡାଲି), and a tasty tadka to bring the flavors together.",
+      "image": "dinner"
+    },
+    {
+      "type": "Extra:",
+      "description": "Enhance your meal with options like tender grilled chicken, flavorful biryani, or a freshly made egg omelette. Enjoy crispy fried fish, spicy chili gobi, rich paneer, or savory sauteed mushrooms for satisfying and delicious addition to your meal.",
+      "image": "extra"
+    }
+  ]
+}
