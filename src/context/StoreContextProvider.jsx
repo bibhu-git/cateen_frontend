@@ -7,7 +7,8 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
     // const URL = 'http://localhost:4000';
-    const URL = 'https://canteen-backend-fpi4.onrender.com';
+    const URL = import.meta.env.VITE_API_BASE_URL;
+    console.log(URL);
     const [userType, setUserType] = useState(null);
     const [token, setToken] = useState(localStorage.getItem("token") || null);
     const [roll, setRoll] = useState(null);
