@@ -4,6 +4,7 @@ import AutoScrollCarousel from '../components/AutoScrollImages'
 import CanteenMenu from '../components/Menu'
 import About from '../components/About'
 import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
         <About />
         <ContactUs />
       </div>
+      <Footer/>
+      
     </div>
   )
 }

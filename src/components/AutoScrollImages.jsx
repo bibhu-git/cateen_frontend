@@ -2,9 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { assets } from "../assets/assets";
-
-const images = [assets.scroll1, assets.scroll3, assets.scroll5];
+import scroll1 from '/scroll1.jpg'
+import scroll3 from '/scroll3.jpg'
+import scroll5 from '/scroll5.jpg'
+const images = [scroll1, scroll3, scroll5];
 
 export default function AutoScrollCarousel() {
   const settings = {

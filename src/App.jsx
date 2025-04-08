@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import ProtectedRoute from '../utils/ProtectedRoute'
@@ -102,7 +101,7 @@ const App = () => {
         </Routes>
       </div>
       <ToastContainer />
-      <Footer />
+      
     </div>
   )
 }

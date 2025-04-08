@@ -1,5 +1,4 @@
 import React from 'react'
-import { assets } from '../assets/assets'
 
 const Food = ({ item }) => {
     return (
@@ -9,7 +8,7 @@ const Food = ({ item }) => {
                     <img
                         className="w-full max-w-xs md:h-64 rounded-lg shadow-md object-cover"
                         loading="lazy"
-                        src={assets[item.image]}
+                        src={item.image}
                         alt={item.type}
                     />
                 </div>
