@@ -3,7 +3,6 @@ import axios from "axios";
 import { StoreContext } from "../context/StoreContextProvider";
 import { toast } from "react-toastify";
 import QRcode from '/QRcode.jpg';
-import { QrCode } from "lucide-react";
 
 export default function PaymentPage() {
   const [transactionId, setTransactionId] = useState("");
@@ -86,7 +85,7 @@ export default function PaymentPage() {
           {/* QR Code Section */}
           <div className="md:w-1/3 flex justify-center mb-6 md:mb-0">
             <img
-              src={QrCode}
+              src={QRcode}
               alt="Payment QR Code"
               className="w-56 h-64 object-cover rounded-lg border border-gray-300"
             />
